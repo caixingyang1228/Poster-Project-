@@ -1,0 +1,88 @@
+.package1 {
+    width: 534px;
+    height: 798px;
+    z-index: 2;
+    position: absolute;
+    background: black;
+    overflow: hidden;
+}
+
+.circle5 {
+    border: 22px solid black;
+    border-top: 22px solid white;
+    border-radius: 50%;
+    width: 924px;
+    height: 924px;
+    left:-92px;
+    top:-137px;
+    animation: spin 60s linear infinite;
+    z-index: 3;
+    position: absolute;
+    background-color: black;
+}
+
+.circle4 {
+    border: 22px solid black;
+    border-top: 22px solid white;
+    border-radius: 50%;
+    width: 648px;
+    height: 648px;
+    left:23.7px;
+    top:-54px;
+    animation: spin 20s linear infinite;
+    z-index: 5;
+    position: absolute;
+    background-color: black;
+}
+
+.circle3 {
+    border: 21px solid black;
+    border-top: 21px solid white;
+    border-radius: 50%;
+    width: 294px;
+    height: 294px;
+    left:233px;
+    top:149px;
+    animation: spin 10s linear infinite;
+    z-index: 10;
+    position: absolute;
+    background-color: black;
+}
+
+.circle2 {
+    border: 18.5px solid black;
+    border-top: 18.5px solid white;
+    border-radius: 50%;
+    width: 177px;
+    height: 177px;
+    left:262.2px;
+    top:218.3px;
+    animation: spin 5s linear infinite;
+    z-index: 30;
+    position: absolute;
+    background-color: black;
+
+}
+.circle1 {
+    border: 18px solid black;
+    border-top: 18px solid white;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    left:299px;
+    top:252.7px ;
+    animation: spin 1s linear infinite;
+    z-index: 60;
+    position: absolute;
+    background-color: black;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.text{
+  color:white;
+  z-index: 1;
+}
